@@ -60,11 +60,18 @@ h1{
     height: 310px;
 }
 
+.img{
+    height: 100px;
+    width: 60%;
+}
+
 .fa-arrow-down{
-padding-top: 2rem;
-font-size: 50px;
+    padding-top: 2rem;
+    font-size: 50px;
 
 }
+
+
 
 .margin-left{
     margin-left: 1rem;
