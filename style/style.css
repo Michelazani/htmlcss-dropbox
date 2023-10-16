@@ -23,7 +23,7 @@ li{
 
 h1{
     font-size: 60px;
-    margin: 4rem;
+    margin: 0 5rem 0 10rem;
 }
 .flex{
     display: flex;
@@ -31,8 +31,15 @@ h1{
     align-items: center;
 }
 
+.jc-left{
+    justify-content: left;
+}
+
+.jc-right{
+    justify-content: right;
+}
+
 .upper-header{
-    width: 100%;
     background-color: white;
 }
 
@@ -45,18 +52,31 @@ h1{
     object-fit: contain;
     width: 550px;
     height: 310px;
+}
 
-}
-.padding-1rem{
-    padding: 1rem;
-}
-.container{
-    width: 100%;
+.fa-arrow-down{
+padding-top: 2rem;
+font-size: 50px;
+
 }
 
 .margin-left{
     margin-left: 1rem;
 }
+
+.padding-1rem,
+.padding-top-1rem{
+    padding-top: 1rem;
+}
+
+.margin-top{
+    margin-top: 1rem;
+}
+
+.container{
+    width: 100%;
+}
+
 
 .smaller-container{
     width: 80%;
