@@ -16,8 +16,15 @@ ul{
     list-style: none;
 }
 
-li{
-    padding: 0.5rem;
+li,
+.logo
+{
+    padding: 1.5rem;
+}
+
+
+.margin-header{
+    margin: 1.5rem;
 }
 
 button{
@@ -35,6 +42,10 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.space-around{
+    justify-content: space-around;
 }
 
 .jc-left{
@@ -56,9 +67,11 @@ h1{
 
 .img-jumbo{
     object-fit: contain;
-    width: 550px;
-    height: 310px;
+    width: 530px;
+    height: 288px;
+
 }
+
 
 .img{
     height: 100px;
