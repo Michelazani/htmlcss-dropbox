@@ -6,3 +6,57 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* TAG */
+
+header{
+    height: 500px;
+    background-color: white;
+}
+
+main{
+ height: 1000px;
+}
+
+footer{
+    height: 300px;
+    background-color: black;
+}
+
+
+/* flex */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* class */
+
+.upper-jumbo{
+    height: 10%;
+}
+
+.jumbo{
+    height: 90%;
+    background-color: rgb(180, 208, 231);
+
+}
+
+.width-jumbo{
+    width: 80%;
+}
+
+.width-main{
+    width: 70%;
+}
+
+
+
+
+.boxes{
+    width: calc(100% / 3);
+    border: 1px solid black;
+    height: 100px;
+}
