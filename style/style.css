@@ -115,7 +115,9 @@ label{
 .img-designit{
     object-fit: contain;
     width: 50%;
+    color: white;
 }
+
 
 .characteristic-logo{
     background-color:rgb(209, 233, 205) ;
