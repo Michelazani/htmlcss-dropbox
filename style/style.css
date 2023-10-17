@@ -112,16 +112,30 @@ label{
     width: 100%;
 }
 
-.img-designit{
+.img-4{
     object-fit: contain;
     width: 50%;
     filter: invert(100%);
 }
 
+/* colori sfondo logo */
 
 .characteristic-logo{
     background-color:rgb(209, 233, 205) ;
 }
+
+.characteristic-logo-asu{
+    background-color: rgb(97, 8, 43);
+}
+
+.characteristic-logo-uf{
+    background-color: rgb(0, 147, 206);
+}
+
+.characteristic-logo-topps{
+    background-color:rgb(255, 28, 28);
+}
+
 
 .container{
     width: 100%;
@@ -203,7 +217,8 @@ label{
 
     width: calc(100% / 2);
     height: 100px;
-    border: 1px solid black;
+    border: 10px solid black;
+    /* CAMBIO BORDO DA QUI */
 
 }
 
