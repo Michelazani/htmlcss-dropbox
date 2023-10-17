@@ -7,42 +7,7 @@
 }
 
 
-section{
-    border: 1px solid black;
-}
-
-ul{
-    list-style: none;
-}
-
-li,
-.logo
-{
-    padding: 1.5rem;
-}
-
-.jumbo{
-    background-color: rgb(180, 208, 231);
-    height: 600px;
-}
-
-
-.margin-header{
-    margin: 1.5rem;
-}
-
-button{
-    background-color: rgb(0, 97, 255);
-    color: white;
-    padding: 0.5rem;
-    border: 1px solid rgb(0, 97, 255);
-}
-
-h1{
-    font-size: 60px;
-    margin: 6rem 5rem 0 10rem;
-}
-
+/* flex */
 
 .flex{
     display: flex;
@@ -62,6 +27,43 @@ h1{
     justify-content: right;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+/* tag */
+section{
+    border: 1px solid black;
+}
+
+
+ul{
+    list-style: none;
+}
+
+
+button{
+    background-color: rgb(0, 97, 255);
+    color: white;
+    padding: 0.5rem;
+    border: 1px solid rgb(0, 97, 255);
+}
+
+h1{
+    font-size: 60px;
+    margin: 6rem 5rem 0 10rem;
+}
+
+
+/* classi */
+
+.jumbo{
+    background-color: rgb(180, 208, 231);
+    height: 600px;
+}
+
+
 .upper-header{
     background-color: white;
 }
@@ -80,26 +82,6 @@ h1{
     width: 60%;
 }
 
-.fa-arrow-down{
-    padding-top: 2rem;
-    font-size: 40px;
-
-}
-
-
-
-.margin-left{
-    margin-left: 1rem;
-}
-
-.padding-1rem,
-.padding-top-1rem{
-    padding-top: 1rem;
-}
-
-.margin-top{
-    margin-top: 1rem;
-}
 
 .container{
     width: 100%;
@@ -158,21 +140,6 @@ h1{
 
 }
 
-.margin-l-jumbo{
-    margin-left:9rem;
-}
-
-/* .p-relative{
-    position: relative;
-    top:20px;
-} */
-
-
-.wrap{
-    flex-wrap: wrap;
-}
-
-
 .four-square{
 
     width: calc(100% / 2);
@@ -187,8 +154,6 @@ h1{
     height: 50px;
 
 }
-
-
 
 .left{
     width: 50%;
@@ -214,4 +179,45 @@ h1{
 footer{
     height: 200px;
     background-color: black;
+}
+
+
+/* margin-padding */
+
+li,
+.logo
+{
+    padding: 1.5rem;
+}
+
+.margin-header{
+    margin: 1.5rem;
+}
+
+.fa-arrow-down{
+    padding-top: 2rem;
+    font-size: 40px;
+
+}
+
+.margin-left{
+    margin-left: 1rem;
+}
+
+.padding-1rem,
+.padding-top-1rem{
+    padding-top: 1rem;
+}
+
+.margin-top{
+    margin-top: 1rem;
+}
+
+
+.margin-l-jumbo{
+    margin-left:9rem;
+}
+
+.mg-top{
+    padding: 7rem 3rem 1rem;
 }
