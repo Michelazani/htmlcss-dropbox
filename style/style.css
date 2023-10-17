@@ -31,6 +31,10 @@
     flex-wrap: wrap;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
 
 /* tag */
 section{
@@ -194,6 +198,7 @@ label{
 
 .border-top{
     border-top: 1px solid black;
+    padding: 1rem 2rem 1rem 0;
 }
 
 footer{
@@ -278,4 +283,12 @@ li,
 
 .margin-bt{
     margin: 1.5rem 0 0 1rem;
+}
+
+.m-bt-3{
+    margin-bottom: 3rem;
+}
+
+.no-pd-left{
+    padding: 2rem 0;
 }
