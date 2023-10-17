@@ -115,7 +115,7 @@ label{
 .img-designit{
     object-fit: contain;
     width: 50%;
-    color: white;
+    filter: invert(100%);
 }
 
 
