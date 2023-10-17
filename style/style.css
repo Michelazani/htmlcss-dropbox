@@ -103,6 +103,11 @@ label{
     width: 400px;
 }
 
+.img-boxes{
+    object-fit: contain;
+    width: 100%;
+}
+
 .container{
     width: 100%;
 }
@@ -304,8 +309,4 @@ li,
 
 .m-bt-3{
     margin-bottom: 3rem;
-}
-
-.no-pd-left{
-    padding: 2rem 0;
 }
