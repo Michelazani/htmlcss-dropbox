@@ -55,6 +55,11 @@ h1{
     margin: 6rem 5rem 0 10rem;
 }
 
+label{
+    font-size: 10px;
+    vertical-align: 2.7px;
+}
+
 
 /* classi */
 
@@ -140,6 +145,7 @@ h1{
 
 }
 
+
 .four-square{
 
     width: calc(100% / 2);
@@ -219,5 +225,5 @@ li,
 }
 
 .mg-top{
-    padding: 7rem 3rem 1rem;
+    padding: 7rem 3rem 1rem 2rem;
 }
