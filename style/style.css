@@ -137,9 +137,13 @@ label{
 .boxes{
     width: calc(100% / 3);
     border: 1px solid black;
-    height: 650px;
+    height: 680px;
 }
 
+.boxes-ht{
+    width: calc(100% / 3);
+    height: 510px;  
+}
 
 
 .width-60{
@@ -247,7 +251,6 @@ footer{
     padding: 0.5rem;
 }
 
-
 /* margin-padding */
 
 li,
@@ -299,7 +302,7 @@ li,
 
 .s-padding-boxes{
     padding: 0.5rem 1rem 0;
-    font-size: 12px;
+    font-size: 13px;
 
 }
 
