@@ -35,6 +35,11 @@
     justify-content: space-between;
 }
 
+.flex-start{
+    justify-content: flex-start;
+    margin-left: 8rem;
+    margin-bottom: 5rem;
+}
 
 /* tag */
 section{
@@ -243,6 +248,10 @@ footer{
     color: black;
     border: 1px solid black;
     padding: 0.5rem;
+}
+
+.text-purple{
+    color: rgb(97, 8, 43);
 }
 
 /* margin-padding */
