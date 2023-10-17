@@ -108,7 +108,6 @@ label{
 .boxes{
     width: calc(100% / 3);
     border: 1px solid black;
-    height: 100px;
 }
 
 
@@ -189,8 +188,9 @@ footer{
 
 /* boxes */
 
-.border-title-box{
+.title-box{
     border: 1px solid black;
+    text-align: center;
 }
 
 .text-centered{
