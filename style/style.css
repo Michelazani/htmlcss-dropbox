@@ -77,7 +77,6 @@ label{
 
 .jumbo{
     background-color: rgb(180, 208, 231);
-    height: 600px;
 }
 
 
@@ -201,15 +200,10 @@ label{
 
 .left{
     width: 50%;
-    border: 1px solid white;
-    height: 50px;
 }
 
 .right{
     width: 50%;
-    border: 1px solid white;
-    height: 50px;
-
 }
 
 .border{
@@ -254,7 +248,8 @@ footer{
 /* margin-padding */
 
 li,
-.logo
+.logo,
+.jumbo
 {
     padding: 1.5rem;
 }
