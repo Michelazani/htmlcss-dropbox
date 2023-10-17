@@ -187,6 +187,16 @@ footer{
     background-color: black;
 }
 
+/* boxes */
+
+.border-title-box{
+    border: 1px solid black;
+}
+
+.text-centered{
+    text-align: center;
+
+}
 
 /* margin-padding */
 
