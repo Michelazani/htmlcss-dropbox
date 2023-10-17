@@ -112,6 +112,15 @@ label{
     width: 100%;
 }
 
+.img-designit{
+    object-fit: contain;
+    width: 50%;
+}
+
+.characteristic-logo{
+    background-color:rgb(209, 233, 205) ;
+}
+
 .container{
     width: 100%;
 }
