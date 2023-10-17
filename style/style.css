@@ -55,10 +55,17 @@ h1{
     margin: 6rem 5rem 0 10rem;
 }
 
+h2{
+    padding: 2rem;
+    font-size: xx-large;
+}
+
+
 label{
     font-size: 10px;
     vertical-align: 2.7px;
 }
+
 
 
 /* classi */
@@ -107,7 +114,9 @@ label{
 .boxes{
     width: calc(100% / 3);
     border: 1px solid black;
+    height: 620px;
 }
+
 
 
 .width-60{
@@ -202,6 +211,8 @@ footer{
     display: inline-flex;
 }
 
+
+
 /* margin-padding */
 
 li,
@@ -240,4 +251,23 @@ li,
 
 .mg-top{
     padding: 7rem 3rem 1rem 2rem;
+}
+
+.space{
+    margin: 0 2rem 2rem 2rem ;
+}
+
+.padding-boxes{
+    padding: 2rem 1rem 0;
+
+}
+
+.s-padding-boxes{
+    padding: 0.5rem 1rem 0;
+    font-size: 12px;
+
+}
+
+.margin-bt{
+    margin: 1.5rem 0 0 1rem;
 }
