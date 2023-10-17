@@ -186,7 +186,7 @@ footer{
     background-color: black;
 }
 
-/* boxes */
+/* details boxes */
 
 .title-box{
     border: 1px solid black;
@@ -195,7 +195,12 @@ footer{
 
 .text-centered{
     text-align: center;
+}
 
+.small-boder{
+    width: 20%;
+    border-bottom: 1px solid grey;
+    display: inline-flex;
 }
 
 /* margin-padding */
