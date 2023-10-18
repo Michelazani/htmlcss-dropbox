@@ -76,66 +76,11 @@ label{
     vertical-align: 2.7px;
 }
 
+/* dimensioni */
 
-
-/* classi */
-
-.jumbo{
-    background-color: rgb(180, 208, 231);
+.smaller-jumbo{
+    width: 85%;
 }
-
-
-.upper-header{
-    background-color: white;
-}
-
-
-.img-jumbo{
-    width: 680px;
-    position: relative;
-    top: 46px;
-
-}
-
-
-.img{
-    height: 100px;
-    width: 60%;
-}
-
-.img-contain{
-    width: 400px;
-}
-
-.img-boxes{
-    object-fit: contain;
-    width: 100%;
-}
-
-.img-4{
-    object-fit: contain;
-    width: 50%;
-    filter: invert(100%);
-}
-
-/* colori sfondo logo */
-
-.characteristic-logo{
-    background-color:rgb(209, 233, 205) ;
-}
-
-.characteristic-logo-asu{
-    background-color: rgb(97, 8, 43);
-}
-
-.characteristic-logo-uf{
-    background-color: rgb(0, 147, 206);
-}
-
-.characteristic-logo-topps{
-    background-color:rgb(255, 28, 28);
-}
-
 
 .container{
     width: 100%;
@@ -143,7 +88,7 @@ label{
 
 
 .smaller-container{
-    width: 80%;
+    width: 70%;
 }
 
 
@@ -166,7 +111,7 @@ label{
 .boxes{
     width: calc(100% / 3);
     border: 1px solid black;
-    height: 680px;
+    height: 775px;
 }
 
 .boxes-ht{
@@ -180,11 +125,6 @@ label{
     border: 1px solid black;
     height: 160px;
 }
-
-.no-border{
-    border: none;
-}
-
 
 .width-40{
     width: 40%;
@@ -214,7 +154,6 @@ label{
 
 
 .four-square{
-
     width: calc(100% / 2);
     height: 100px;
     border: 10px solid black;
@@ -237,6 +176,76 @@ label{
     width: 50%;
 }
 
+footer{
+    height: 200px;
+    background-color: black;
+}
+
+/* classi */
+
+.jumbo{
+    background-color: rgb(180, 208, 231);
+}
+
+
+.upper-header{
+    background-color: white;
+}
+
+
+.img-jumbo{
+    width: 680px;
+    position: relative;
+    top: 46px;
+}
+
+
+.img{
+    height: 100px;
+    width: 60%;
+}
+
+.img-contain{
+    width: 400px;
+}
+
+.img-boxes{
+    object-fit: contain;
+    width: 100%;
+}
+
+.img-4{
+    object-fit: contain;
+    width: 50%;
+    filter: invert(100%);
+}
+
+
+/* colori sfondo logo */
+
+.characteristic-logo{
+    background-color:rgb(209, 233, 205) ;
+}
+
+.characteristic-logo-asu{
+    background-color: rgb(97, 8, 43);
+}
+
+.characteristic-logo-uf{
+    background-color: rgb(0, 147, 206);
+}
+
+.characteristic-logo-topps{
+    background-color:rgb(255, 28, 28);
+}
+
+
+
+.no-border{
+    border: none;
+}
+
+
 .border{
     border-bottom: 1px solid black;
 }
@@ -246,10 +255,7 @@ label{
     padding: 1rem 2rem 1rem 0;
 }
 
-footer{
-    height: 200px;
-    background-color: black;
-}
+
 
 /* details boxes */
 
@@ -279,6 +285,7 @@ footer{
 .text-purple{
     color: rgb(97, 8, 43);
 }
+
 
 /* margin-padding */
 
@@ -318,7 +325,8 @@ li,
 }
 
 .mg-top{
-    padding: 7rem 3rem 1rem 2rem;
+    /* padding: 7rem 3rem 1rem 3rem; */
+    padding: 3rem 3rem 3rem;
 }
 
 .space{
