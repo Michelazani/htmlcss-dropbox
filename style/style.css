@@ -215,6 +215,11 @@ footer{
     filter: invert(100%);
 }
 
+.img-central{
+    width: 40%;
+ 
+}
+
 .four-square{
     width: 50%;
     height: 50%;
