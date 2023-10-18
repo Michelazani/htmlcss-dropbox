@@ -163,9 +163,7 @@ label {
 
 .width-5{
     width: calc(100% / 5);
-    border: 1px solid white;
-    height: 50px;
-
+    color: white;
 }
 
 .left{
@@ -177,7 +175,6 @@ label {
 }
 
 footer{
-    height: 200px;
     background-color: black;
 }
 
