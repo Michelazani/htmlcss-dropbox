@@ -170,6 +170,7 @@ label {
 
 footer{
     background-color: black;
+    padding: 2rem 0;
 }
 
 .ul-footer{
@@ -179,6 +180,10 @@ footer{
 
 footer li{
     padding: 0.5rem;
+}
+
+footer li h4{
+    font-size: large;
 }
 
 
@@ -315,7 +320,7 @@ footer li{
 
 /* margin-padding */
 
-.ul-header,
+header ul li,
 .logo,
 .jumbo
 {
@@ -350,7 +355,6 @@ footer li{
 }
 
 .mg-top{
-    /* padding: 7rem 3rem 1rem 3rem; */
     padding: 3rem 3rem 3rem;
 }
 
