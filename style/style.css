@@ -290,6 +290,7 @@ footer li h4{
 .title-box{
     border: 1px solid black;
     text-align: center;
+    padding: 0.5rem;
 }
 
 .text-centered{
@@ -322,7 +323,7 @@ footer li h4{
 
 header ul li,
 .logo,
-.jumbo
+.jumbo,
 {
     padding: 1.5rem;
 }
@@ -364,8 +365,8 @@ header ul li,
 
 .padding-boxes{
     padding: 2rem 1rem 0;
-
 }
+
 
 .s-padding-boxes{
     padding: 0.5rem 1rem 0;
