@@ -27,9 +27,6 @@
     justify-content: right;
 }
 
-.wrap{
-    flex-wrap: wrap;
-}
 
 .space-between{
     justify-content: space-between;
@@ -146,20 +143,19 @@ label{
 }
 
 .client{
-    width: calc(100% / 3);
-    height: 200px;
+    width: 50%;
+    height: 50%;
     border: 1px solid black;
 
 }
 
-
-.four-square{
-    width: calc(100% / 2);
-    height: 100px;
-    border: 10px solid black;
-    /* CAMBIO BORDO DA QUI */
-
+.column-third{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
+
 
 .width-5{
     width: calc(100% / 5);
@@ -206,7 +202,7 @@ footer{
 }
 
 .img-contain{
-    width: 400px;
+    width: 475px;
 }
 
 .img-boxes{
@@ -215,11 +211,14 @@ footer{
 }
 
 .img-4{
-    object-fit: contain;
     width: 50%;
     filter: invert(100%);
 }
 
+.four-square{
+    width: 50%;
+    height: 50%;
+}
 
 /* colori sfondo logo */
 
