@@ -222,23 +222,37 @@ footer{
 
 /* colori sfondo logo */
 
-.characteristic-logo{
+.bg-logo{
     background-color:rgb(209, 233, 205) ;
 }
 
-.characteristic-logo-asu{
+.bg-logo-asu{
     background-color: rgb(97, 8, 43);
 }
 
-.characteristic-logo-uf{
+.bg-logo-uf{
     background-color: rgb(0, 147, 206);
 }
 
-.characteristic-logo-topps{
+.bg-logo-topps{
     background-color:rgb(255, 28, 28);
 }
 
+.bg-logo-world-bicycle-relief{
+    background-color: rgb(213, 0, 31);
+}
 
+.bg-logo-hearts-corp{
+    background-color: rgb(180, 208, 231) ;
+}
+
+.bg-logo-lonely-planet{
+    background-color: rgb(13, 36, 129) ;
+}
+
+.bg-logo-clear-channel{
+    background-color: rgb(255, 216, 48) ;
+}
 
 .no-border{
     border: none;
