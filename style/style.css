@@ -42,11 +42,6 @@
 }
 
 /* tag */
-section{
-    border: 1px solid black;
-    /* DA TENERE */
-}
-
 
 ul{
     list-style: none;
@@ -144,8 +139,6 @@ label {
 .height-40{
     height: 100px;
 }
-
-
 
 .column-third{
     display: flex;
@@ -321,10 +314,9 @@ footer li h4{
 
 /* margin-padding */
 
-header ul li,
+
 .logo,
-.jumbo,
-{
+.jumbo, {
     padding: 1.5rem;
 }
 
@@ -335,9 +327,10 @@ header ul li,
 .fa-arrow-down{
     padding-top: 2rem;
     font-size: 40px;
-
 }
 
+header section ul li,
+header section img,
 .margin-left{
     margin-left: 1rem;
 }
