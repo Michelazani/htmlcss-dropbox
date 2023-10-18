@@ -15,10 +15,6 @@
     align-items: center;
 }
 
-.space-around{
-    justify-content: space-around;
-}
-
 .jc-left{
     justify-content: left;
 }
@@ -95,11 +91,8 @@ label {
 
 }
 
-.larger-box-ht{
-    width: 100%;
+.ht{
     height: 350px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     border: none;
 }
 
@@ -125,10 +118,6 @@ label {
     width: 40%;
     border: 1px solid black;
     height: 160px;
-}
-
-.width-40-no-ht{
-    width: 40%;
 }
 
 .width-50{
@@ -276,8 +265,20 @@ footer li h4{
     padding: 1rem 2rem 1rem 0;
 }
 
+main div.width-40 button{
+    position: relative;
+    bottom: 30px;
+}
 
+main button.color-white{
+    position: relative;
+    top: 2px
+}
 
+main div.column a{
+    position: relative;
+    right: 160px;
+}
 /* details boxes */
 
 .title-box{
@@ -286,9 +287,6 @@ footer li h4{
     padding: 0.5rem;
 }
 
-.text-centered{
-    text-align: center;
-}
 
 .small-boder{
     width: 20%;
