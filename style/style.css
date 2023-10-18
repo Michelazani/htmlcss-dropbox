@@ -34,8 +34,7 @@
 
 .flex-start{
     justify-content: flex-start;
-    margin-left: 8rem;
-    margin-bottom: 5rem;
+    padding: 0px 2rem;
 }
 
 /* tag */
@@ -68,7 +67,7 @@ h2{
 }
 
 
-label{
+label {
     font-size: 10px;
     vertical-align: 2.7px;
 }
@@ -217,7 +216,7 @@ footer{
 
 .img-central{
     width: 40%;
- 
+    border-bottom: 1px solid grey;
 }
 
 .four-square{
@@ -289,7 +288,7 @@ footer{
 .small-boder{
     width: 20%;
     border-bottom: 1px solid grey;
-    display: inline-flex;
+    display: block;
     margin-left: 1rem;
 }
 
@@ -304,6 +303,9 @@ footer{
     color: rgb(97, 8, 43);
 }
 
+.text-s{
+    font-size: 12px;
+}
 
 /* margin-padding */
 
