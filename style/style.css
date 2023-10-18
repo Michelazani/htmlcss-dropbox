@@ -37,6 +37,10 @@
     padding: 0px 2rem;
 }
 
+.column{
+    flex-direction: column;
+}
+
 /* tag */
 section{
     border: 1px solid black;
@@ -62,7 +66,7 @@ h1{
 }
 
 h2{
-    padding: 2rem;
+    padding: 2rem 4rem 2rem 0;
     font-size: xx-large;
 }
 
@@ -145,8 +149,9 @@ label {
     width: 50%;
     height: 50%;
     border: 1px solid black;
-
 }
+
+
 
 .column-third{
     display: flex;
