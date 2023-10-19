@@ -97,7 +97,7 @@ label {
 }
 
 .boxes{
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 2rem);
     border: 1px solid black;
     height: 775px;
 }
